@@ -1,0 +1,19 @@
+.title {
+    padding: 1rem 2rem;
+    text-align: center;
+    color: lightslategray;
+}
+
+.cauds {
+    max-width: 30%;
+    height: auto;
+    padding: 1rem 2rem;
+}
+
+.hereforyou,
+.meowntain {
+  width: 100%;         /* Take up full width of the .cauds container */
+  height: auto;        /* Maintain aspect ratio */
+  display: block;      /* Avoid inline spacing */
+  margin-bottom: 1rem; /* Optional: space between images */
+}

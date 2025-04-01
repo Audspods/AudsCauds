@@ -1,0 +1,30 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    left: 0;
+    width: 100%;
+    background: lightslategray;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+    z-index: 999;
+}
+
+.contacts{
+    padding: 1rem 2rem;
+}
+
+.main-content{
+    padding-bottom: 80px;
+}
+
+.footer a, .contacts a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+.contacts a:hover {
+    color: gray;
+}
