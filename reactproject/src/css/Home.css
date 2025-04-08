@@ -1,19 +1,34 @@
 .title {
-    padding: 1rem 2rem;
-    text-align: center;
-    color: lightslategray;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: lightslategray;
+}
+
+.new {
+  text-align: center;
+  padding: 1rem 2rem;
+  color: lightslategray;
 }
 
 .cauds {
-    max-width: 30%;
-    height: auto;
-    padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  max-width: 1000px;
 }
 
-.hereforyou,
-.meowntain {
-  width: 100%;         /* Take up full width of the .cauds container */
-  height: auto;        /* Maintain aspect ratio */
-  display: block;      /* Avoid inline spacing */
-  margin-bottom: 1rem; /* Optional: space between images */
+.caud-img {
+  width: 250px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.caud-img:hover {
+  transform: scale(1.05);
 }

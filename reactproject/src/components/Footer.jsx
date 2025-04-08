@@ -7,7 +7,7 @@ function Footer() {
           <a href="https://instagram.com"
           target="_blank" rel="noopener noreferrer"
           className="footer-link">instagram</a>
-          <a href="https://etsy.com/AudsCauds"
+          <a href="https://etsy.com/shop/AudsCauds"
           target="_blank"
           rel="noopener noreferrer"
           className="etsy">etsy</a>
