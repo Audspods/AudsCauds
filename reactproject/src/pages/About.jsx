@@ -12,7 +12,7 @@ function About() {
                     <h2>Audrey</h2>
                     <p>I've always been fascinated with puns and wanted to express my ideas while spreading love.
                     I create cards for every occasion, often featuring cats, raccoons, and worms :) </p>
-                    <a href="https://www.linkedin.com/in/audrey-shen-051820259/" className="linkedin">PLEASE HIRE ME</a>
+                    <a href="https://www.linkedin.com/in/audrey-shen-051820259/" className="linkedin" target="_blank" rel="noopener noreferrer">PLEASE HIRE ME</a>
                 </div>
             </div>
 
