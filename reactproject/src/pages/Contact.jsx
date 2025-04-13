@@ -11,11 +11,11 @@ const Contact= () => {
             >
             <label>
                 Your Email:
-                <input type ="email" name="email"/>
+                <input type ="email" name="email" required/>
             </label>
             <label>
                 Your Message:
-                <textarea name="message"/>
+                <textarea name="message" required></textarea>/
             </label>
             <button type="submit" style={{ padding: "10px 20px"}}>Send</button>
         </form>
