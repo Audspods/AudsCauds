@@ -1,9 +1,10 @@
 import React from "react";
+import "../css/Contact.css";
 
 const Contact= () => {
     return (
         <div style={{ maxWidth: "500px", margin: "0 auto", padding: "20px" }}>
-            <h2>send me a message</h2>
+            <h2 className="contact-heading">send me a message</h2>
             <form
                 action="https://formspree.io/f/mrbpjvzb"
                 method="POST"
