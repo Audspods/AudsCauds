@@ -19,24 +19,28 @@ const cauds = [
     defaultImg: meowntainImg,
     hoverImg: meowntainblurImg,
     alt: "Meowntain",
-    link: "https://www.etsy.com/listing/1841557611"
+    link: "https://www.etsy.com/listing/1841557611",
+    tags: ["carl"]
   },
   {
     defaultImg: wermImg,
     hoverImg: wermblurImg,
     alt: "Wermy",
-    link: "https://www.etsy.com/listing/1836055238"
+    link: "https://www.etsy.com/listing/1836055238",
+    tags: ["werm"]
   },
   {
     defaultImg: hereforyouImg,
     hoverImg: hereblurImg,
     alt: "hereforyou",
-    link: "https://www.etsy.com/listing/1836547600"
+    link: "https://www.etsy.com/listing/1836547600",
+    tags: ["raccoon"]
   },
   {
     defaultImg: hookedImg,
     hoverImg: hookedblurImg,
-    alt: "hooked"
+    alt: "hooked",
+    tags: ["werm"]
   },
   {
     defaultImg: lawlessImg,
@@ -46,7 +50,8 @@ const cauds = [
   {
     defaultImg: storkedImg,
     hoverImg: storkblurImg,
-    alt: "hooked"
+    alt: "hooked",
+    tags: ["birthday"]
   }
 ];
 
