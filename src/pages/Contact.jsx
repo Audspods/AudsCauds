@@ -15,7 +15,7 @@ const Contact= () => {
             </label>
             <label>
                 Your Message:
-                <textarea name="message" required></textarea>/
+                <textarea name="message" required></textarea>
             </label>
             <button type="submit" style={{ padding: "10px 20px"}}>Send</button>
         </form>
