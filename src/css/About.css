@@ -1,0 +1,35 @@
+.caud-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.caud-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Audreypfp, .Adpfp, .Wermypfp {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Wermy-biotext, .Audrey-biotext, .Adeline-biotext {
+    flex: 1;
+}
+
+.Adeline {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-left: 4rem;
+    padding: 1rem;
+}

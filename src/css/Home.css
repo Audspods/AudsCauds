@@ -1,0 +1,35 @@
+.title {
+  padding: 1rem 2rem;
+  text-align: center;
+  color: lightslategray;
+}
+
+.new {
+  text-align: center;
+  padding: 1rem 2rem;
+  color: lightslategray;
+}
+
+.new-cauds,
+.cauds {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+
+.caud-img {
+  width: 250px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.caud-img:hover {
+  transform: scale(1.05);
+}
